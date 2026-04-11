@@ -63,11 +63,18 @@ h3{
   font-size: 1.5em;
   color: rgb(65, 36, 7);
   font-family:Georgia, 'Times New Roman', Times, serif;
+  margin:0.3em;
 }
 
 .prediccion {
   font-size: 1.2em;
   color: rgba(65, 36, 7, 0.853);
+  margin:0.3em;
+}
+.historia {
+  font-size: 1em;
+  color: rgba(65, 36, 7, 0.853);
+  margin:0.3em
 }
 
 .prediccion::first-letter {

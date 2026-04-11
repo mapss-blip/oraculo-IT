@@ -6,23 +6,29 @@ const imagenes = [
   "https://content-historia.nationalgeographic.com.es/medio/2023/03/08/jason-y-medea-cuadro-pintado-en-el-ano-1759-por-el-artista-frances-carlo-van-loo_bbe41e78_230308104211_800x649.jpg",
   "https://ewahrsezb42.exactdn.com/wp-content/uploads/atalanta.jpg",
   "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdNd1wQ2zTUHV33geybfqpAmMK_-RW-NdFrQ&s",
-  
+
 ];
 
 
 const titulos = [
   "Odiseo (Ulises)",
   "Aquiles",
-  "Jasón",
   "Atalanta",
   "Herácles (Hércules)",
 
   
 ];
 
+
+
 const frases = [
-  "Te alimentas de plantas, frutas, hojas y flores. Vives en bosques de climas cálidos y prefieres la tierra que el agua.",
-  "Eres pequeña pero tu extravagancia no pasa desapercibida. Vives en bosques húmedos y lluviosos y tienes veneno en la piel.",
+ "Eres inteligente y leal, pero a veces dejas que te gane tu orgullo",
+ "Eres considerado el mejor, pero eres más vulnerable de lo que crees",
+ "De las pocas mujeres de la mitología que dejan en la categoría de 'héroe', eres infravalorada a pesar de ser mucho más fuerte de lo que aparentas",
+ "Considerado el más capaz, eres volátil y tienes a tus espaldas tanto logros como cosas cuestionables",
+
+
+
 ];
 
 // Trae los elementos del HTML que tienen ese id

@@ -61,10 +61,13 @@ h3{
 
 .tituloPrediccion {
   font-size: 1.5em;
+  color: rgb(65, 36, 7);
+  font-family:Georgia, 'Times New Roman', Times, serif;
 }
 
 .prediccion {
   font-size: 1.2em;
+  color: rgba(65, 36, 7, 0.853);
 }
 
 .prediccion::first-letter {

@@ -1,12 +1,23 @@
 // Crear las listas de imágenes, títulos y frases
+
 const imagenes = [
-  "https://www.postposmo.com/wp-content/uploads/2020/09/Especies-end%C3%A9micas-de-colombia-3.jpg",
-  "https://www.postposmo.com/wp-content/uploads/2020/09/Especies-end%C3%A9micas-de-colombia-4.jpg",
+  "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Ulysses_And_The_Sirens_by_L%C3%A9on_Belly.jpg/960px-Ulysses_And_The_Sirens_by_L%C3%A9on_Belly.jpg",
+  "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/The_%22Triumph_of_Achilles%22_fresco%2C_in_Corfu_Achilleion.jpg/1920px-The_%22Triumph_of_Achilles%22_fresco%2C_in_Corfu_Achilleion.jpg",
+  "https://content-historia.nationalgeographic.com.es/medio/2023/03/08/jason-y-medea-cuadro-pintado-en-el-ano-1759-por-el-artista-frances-carlo-van-loo_bbe41e78_230308104211_800x649.jpg",
+  "https://ewahrsezb42.exactdn.com/wp-content/uploads/atalanta.jpg",
+  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdNd1wQ2zTUHV33geybfqpAmMK_-RW-NdFrQ&s",
+  
 ];
 
+
 const titulos = [
-  "Tortuga morrocoy",
-  "Ranita venenosa",
+  "Odiseo (Ulises)",
+  "Aquiles",
+  "Jasón",
+  "Atalanta",
+  "Herácles (Hércules)",
+
+  
 ];
 
 const frases = [

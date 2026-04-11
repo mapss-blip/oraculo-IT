@@ -40,28 +40,31 @@ h2 {
   font-family:Georgia, 'Times New Roman', Times, serif;
   color: rgb(66, 16, 3);
 }
-#subtitulooo{
-  color: rgb(142, 81, 11);
+h3{
+  color: rgb(108, 60, 6);
 }
 .tarjeta{
   background: rgba(66, 16, 3, 0.245);
-  width:50vw;
+  width:45vw;
+  height:32vw;
   margin: auto;
   border-radius: 5%;
 }
 
 #foto {
- height: 300px;
-  border: #ff7300 solid 5px;
-  margin-top: 15px;
+ height: 18vw;
+ width: 20vw;
+  border: #844817 dotted 0.3vw;
+  border-radius: 5%;
+  margin-top: 1em;
 }
 
 .tituloPrediccion {
-  font-size: 2em;
+  font-size: 1.5em;
 }
 
 .prediccion {
-  font-size: 1.5em;
+  font-size: 1.2em;
 }
 
 .prediccion::first-letter {
@@ -70,8 +73,8 @@ h2 {
 
 #boton {
   font-size: 0.9em;
-  background-color: #3d00fdb5;
+  background-color: #362303;
   color: white;
-  margin-bottom: 2em;
+  margin-bottom: 1em;
   cursor: pointer;
 }

@@ -3,9 +3,9 @@
 const imagenes = [
   "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Ulysses_And_The_Sirens_by_L%C3%A9on_Belly.jpg/960px-Ulysses_And_The_Sirens_by_L%C3%A9on_Belly.jpg",
   "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/The_%22Triumph_of_Achilles%22_fresco%2C_in_Corfu_Achilleion.jpg/1920px-The_%22Triumph_of_Achilles%22_fresco%2C_in_Corfu_Achilleion.jpg",
-  "https://content-historia.nationalgeographic.com.es/medio/2023/03/08/jason-y-medea-cuadro-pintado-en-el-ano-1759-por-el-artista-frances-carlo-van-loo_bbe41e78_230308104211_800x649.jpg",
   "https://ewahrsezb42.exactdn.com/wp-content/uploads/atalanta.jpg",
   "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdNd1wQ2zTUHV33geybfqpAmMK_-RW-NdFrQ&s",
+  "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Oedipus_at_Colonus.jpg/960px-Oedipus_at_Colonus.jpg",
 
 ];
 
@@ -15,6 +15,7 @@ const titulos = [
   "Aquiles",
   "Atalanta",
   "Herácles (Hércules)",
+  "Edipo"
 
   
 ];
@@ -24,6 +25,7 @@ const nombrehistoria = [
   "La Iliada", 
   "Atalanta", 
   "Los 12 trabajos", 
+  "Edipo Rey",
 ]
 
 const frases = [
@@ -31,6 +33,7 @@ const frases = [
  "Eres considerado el mejor, pero eres más vulnerable de lo que crees",
  "De las pocas mujeres en la mitología en la categoría de 'héroe', en misiones junto a héroes varones, eres infravalorada a pesar de ser mucho más fuerte de lo que aparentas",
  "Considerado el más capaz, eres volátil y tienes a tus espaldas tanto logros como cosas cuestionables",
+ "Eres una persona perspicaz, pero también eres bastante impulsivo. No intentes evadir las consecuencias de tus actos"
 
 
 

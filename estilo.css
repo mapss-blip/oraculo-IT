@@ -71,11 +71,12 @@ h3{
   color: rgba(65, 36, 7, 0.853);
   margin:0.3em;
 }
-.historia {
+.historiaPrincipal {
   font-size: 1em;
-  color: rgba(65, 36, 7, 0.853);
+  color: rgba(65, 36, 20, 0.853);
   margin:0.3em
 }
+
 
 .prediccion::first-letter {
   text-transform: uppercase;

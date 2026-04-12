@@ -69,3 +69,16 @@ boton.addEventListener("click", function () {
 });
 
 generarPrediccion();
+
+
+const varSubtitulo = document.getElementById("subtitulooooo");
+let estadoInicial = true;
+varSubtitulo.addEventListener("click", () => {
+    if(estadoInicial === true){
+        varSubtitulo.innerText = "🌪️ Nada en exceso... 🌪️";
+    }
+    else {
+        varSubtitulo.innerText = "🌀 Conócete a ti mismo...🌀";
+    }
+       estadoInicial = !estadoInicial;
+})

@@ -19,12 +19,17 @@ const titulos = [
   
 ];
 
-
+const nombrehistoria = [
+  "La Odisea", 
+  "La Iliada", 
+  "Atalanta", 
+  "Los 12 trabajos", 
+]
 
 const frases = [
  "Eres inteligente y leal, pero a veces dejas que te gane tu orgullo",
  "Eres considerado el mejor, pero eres más vulnerable de lo que crees",
- "De las pocas mujeres de la mitología que dejan en la categoría de 'héroe', eres infravalorada a pesar de ser mucho más fuerte de lo que aparentas",
+ "De las pocas mujeres en la mitología en la categoría de 'héroe', en misiones junto a héroes varones, eres infravalorada a pesar de ser mucho más fuerte de lo que aparentas",
  "Considerado el más capaz, eres volátil y tienes a tus espaldas tanto logros como cosas cuestionables",
 
 
@@ -51,6 +56,8 @@ function generarPrediccion() {
 
   // Reemplaza la imagen del elemento 'imagen' por una elegida aleatoriamente
   imagen.src = imagenes[indice];
+
+    prediccion.innerHTML = `<h4>${nombrehistoria[indice]}</h4>`;
 
   // Reemplaza el texto del elemento 'predicción' por las frases elegidas aleatoriamente
   prediccion.innerHTML = `<p>${frases[indice]}</p>`;

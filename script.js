@@ -6,6 +6,7 @@ const imagenes = [
   "https://ewahrsezb42.exactdn.com/wp-content/uploads/atalanta.jpg",
   "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdNd1wQ2zTUHV33geybfqpAmMK_-RW-NdFrQ&s",
   "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Oedipus_at_Colonus.jpg/960px-Oedipus_at_Colonus.jpg",
+  
 
 ];
 
@@ -61,7 +62,7 @@ function generarPrediccion() {
   // Reemplaza la imagen del elemento 'imagen' por una elegida aleatoriamente
   imagen.src = imagenes[indice];
 
-    prediccion.innerHTML = `<h4>${nombrehistoria [indice]}</h4>`;
+    nombrehistoria.innerHTML = `<h4>${nombrehistoria [indice]}</h4>`;
 
   // Reemplaza el texto del elemento 'predicción' por las frases elegidas aleatoriamente
   prediccion.innerHTML = `<p>${frases[indice]}</p>`;

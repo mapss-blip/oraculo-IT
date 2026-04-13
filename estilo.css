@@ -16,12 +16,14 @@ body {
   
   
   /* Código para poner un cursor personalizado*/
- /* cursor: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/9632/heart.png"), auto; */
+ /*cursor: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/9632/heart.png"), auto; */
 
 }
 
 body{
-  background-color:rgb(231, 207, 207);
+  background-image: url("/Imagenes/delphi.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 h2 {
   font-size: 1.1em;
@@ -29,11 +31,14 @@ h2 {
 
 #cajita{
   margin: auto 1em;
-  margin-top: 2em;
+  margin-top: 1.5em;
+  margin-bottom: 1.2em;
   text-align: center;
+  background-color: rgb(219, 201, 201);
   border: rgb(65, 59, 0) double 0.5vw;
   height: auto;
   width: auto;
+  padding: 5%;
 
 }
 
@@ -53,8 +58,6 @@ h3{
   width:auto;
   height:auto;
   margin: 5em;
-  margin-left: 20em;
-  margin-right: 20em;
   border-radius: 5%;
 }
 

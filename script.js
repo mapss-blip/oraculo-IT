@@ -45,6 +45,7 @@ const titulo = document.getElementById("titulo1");
 const nombrehistorias = document.getElementById("historia1");
 const prediccion = document.getElementById("prediccion1");
 const boton = document.getElementById("boton");
+const saludo = document.getElementById("saludo");
 
 // Función para generar un número aleatorio entre un valor mínimo y un máximo
 function numeroRandom(min, max) {
@@ -74,6 +75,10 @@ boton.addEventListener("click", function () {
 
 generarPrediccion();
 
+let nombre = prompt("¡Holaaa! ¿como te llamas?");
+saludo.innerText = "Hola " + nombre + ", el héroe de mitología griega que mejor te representa es: "
+
+
 
 const varSubtitulo = document.getElementById("subtitulooooo");
 let estadoInicial = true;
@@ -86,3 +91,8 @@ varSubtitulo.addEventListener("click", () => {
     }
        estadoInicial = !estadoInicial;
 })
+
+
+//alert(`Hola, ${nombre}`);
+
+console.log(nombre);

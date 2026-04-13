@@ -1,12 +1,11 @@
 // Crear las listas de imágenes, títulos y frases
 
 const imagenes = [
-  "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Ulysses_And_The_Sirens_by_L%C3%A9on_Belly.jpg/960px-Ulysses_And_The_Sirens_by_L%C3%A9on_Belly.jpg",
+ "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Ulysses_And_The_Sirens_by_L%C3%A9on_Belly.jpg/960px-Ulysses_And_The_Sirens_by_L%C3%A9on_Belly.jpg",
   "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/The_%22Triumph_of_Achilles%22_fresco%2C_in_Corfu_Achilleion.jpg/1920px-The_%22Triumph_of_Achilles%22_fresco%2C_in_Corfu_Achilleion.jpg",
   "https://ewahrsezb42.exactdn.com/wp-content/uploads/atalanta.jpg",
   "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdNd1wQ2zTUHV33geybfqpAmMK_-RW-NdFrQ&s",
-  "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Oedipus_at_Colonus.jpg/960px-Oedipus_at_Colonus.jpg",
-  
+  "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Oedipus_at_Colonus.jpg/960px-Oedipus_at_Colonus.jpg", 
 
 ];
 

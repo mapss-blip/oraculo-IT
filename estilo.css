@@ -39,7 +39,7 @@ h2 {
   height: auto;
   width: auto;
   padding: 5%;
-
+  
 }
 
 #titulooo{
@@ -52,13 +52,25 @@ h3{
   color: rgb(108, 60, 6);
   cursor: pointer;
 }
+#caja {
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+
 .tarjeta{
   background: rgba(66, 16, 3, 0.245);
  border: #844817 dashed 0.2dvw;
-  width:auto;
+  width:40vw;
   height:auto;
   margin: 5em;
   border-radius: 5%;
+ 
+
+
 }
 
 #foto {

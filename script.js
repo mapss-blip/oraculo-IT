@@ -42,6 +42,7 @@ const frases = [
 // Trae los elementos del HTML que tienen ese id
 const imagen = document.getElementById("foto");
 const titulo = document.getElementById("titulo1");
+const nombrehistorias = document.getElementById("historia1");
 const prediccion = document.getElementById("prediccion1");
 const boton = document.getElementById("boton");
 
@@ -60,7 +61,7 @@ function generarPrediccion() {
   // Reemplaza la imagen del elemento 'imagen' por una elegida aleatoriamente
   imagen.src = imagenes[indice];
 
-    prediccion.innerHTML = `<h4>${nombrehistoria[indice]}</h4>`;
+    prediccion.innerHTML = `<h4>${nombrehistoria [indice]}</h4>`;
 
   // Reemplaza el texto del elemento 'predicción' por las frases elegidas aleatoriamente
   prediccion.innerHTML = `<p>${frases[indice]}</p>`;

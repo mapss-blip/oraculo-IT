@@ -32,6 +32,8 @@ h2 {
   margin-top: 2em;
   text-align: center;
   border: rgb(65, 59, 0) double 0.5vw;
+  height: auto;
+  width: auto;
 
 }
 
@@ -59,7 +61,7 @@ h3{
 #foto {
  height: 18vw;
  width: 20vw;
-  border: #844817 dotted 0.3vw;
+  border: #844817 dotted 0.2vw;
   border-radius: 5%;
   margin-top: 1em;
 }
